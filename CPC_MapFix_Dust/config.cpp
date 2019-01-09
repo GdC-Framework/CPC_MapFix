@@ -215,7 +215,13 @@ class CfgVehicles{
 			{"mak308_Dirt","RDustEffectsMan"},
 			{"mak308_GrassDry","RDustEffectsMan"},
 			{"mak319_thorn","RDustEffectsMan"},
-			{"mak319_desert","RDustEffectsMan"}			
+			{"mak319_desert","RDustEffectsMan"},
+			// Lingor
+			{"lingor_grass","RDustEffectsMan"},
+			{"lingor_sand","RDustEffectsMan"},
+			{"lingor_stones","RDustEffectsMan"},
+			{"lingor_wood","RDustEffectsMan"},
+			{"lingor_rock","RDustEffectsMan"}
 		};
 		leftDustEffects[] ={
 			{"GdtGrassShort","LDustEffectsMan"},
@@ -416,7 +422,13 @@ class CfgVehicles{
 			{"mak308_Dirt","LDustEffectsMan"},
 			{"mak308_GrassDry","LDustEffectsMan"},
 			{"mak319_thorn","LDustEffectsMan"},
-			{"mak319_desert","LDustEffectsMan"}
+			{"mak319_desert","LDustEffectsMan"},
+			// Lingor
+			{"lingor_grass","LDustEffectsMan"},
+			{"lingor_sand","LDustEffectsMan"},
+			{"lingor_stones","LDustEffectsMan"},
+			{"lingor_wood","LDustEffectsMan"},
+			{"lingor_rock","LDustEffectsMan"}
 		};
 	};
 	class Car: LandVehicle
@@ -900,7 +912,36 @@ class CfgVehicles{
 			{"mak319_thorn","RgrassdryEffects"},
 			{"mak319_desert","RDustEffects"},
 			{"mak319_desert","RDirtEffectsBig"},
-			{"mak319_desert","RSandEffects"}
+			{"mak319_desert","RSandEffects"},
+			// Lingor
+			{"lingor_sand","RDustEffects"},
+			{"lingor_sand","RDirtEffects"},
+			{"lingor_sand","RStonesEffects"},
+			{"lingor_sand","RGrassDryEffects"},
+			{"lingor_sand","RGrassEffects"},
+			{"lingor_sand","RSandEffects"},
+			{"lingor_grass","RDustEffects"},
+			{"lingor_grass","RDirtEffects"},
+			{"lingor_grass","RStonesEffects"},
+			{"lingor_grass","RGrassDryEffects"},
+			{"lingor_grass","RGrassEffects"},
+			{"lingor_grass","RSandEffects"},
+			{"lingor_stones","RDustEffects"},
+			{"lingor_stones","RDirtEffects"},
+			{"lingor_stones","RStonesEffects"},
+			{"lingor_stones","RGrassDryEffects"},
+			{"lingor_stones","RGrassEffects"},
+			{"lingor_stones","RSandEffects"},
+			{"lingor_wood","RDustEffects"},
+			{"lingor_wood","RDirtEffects"},
+			{"lingor_wood","RStonesEffects"},
+			{"lingor_wood","RGrassDryEffects"},
+			{"lingor_wood","RGrassEffects"},
+			{"lingor_rock","RDustEffects"},
+			{"lingor_rock","RDirtEffects"},
+			{"lingor_rock","RStonesEffects"},
+			{"lingor_rock","RGrassDryEffects"},
+			{"lingor_rock","RSandEffects"}
 		};
 		leftDustEffects[] ={
 			{"GdtGrassShort","LDustEffects"},
@@ -1380,7 +1421,36 @@ class CfgVehicles{
 			{"mak319_thorn","LgrassdryEffects"},
 			{"mak319_desert","LDustEffects"},
 			{"mak319_desert","LDirtEffectsBig"},
-			{"mak319_desert","LSandEffects"}
+			{"mak319_desert","LSandEffects"},
+			//Lingor
+			{"lingor_sand","LDustEffects"},
+			{"lingor_sand","LDirtEffects"},
+			{"lingor_sand","LStonesEffects"},
+			{"lingor_sand","LGrassDryEffects"},
+			{"lingor_sand","LGrassEffects"},
+			{"lingor_sand","LSandEffects"},
+			{"lingor_grass","LDustEffects"},
+			{"lingor_grass","LDirtEffects"},
+			{"lingor_grass","LStonesEffects"},
+			{"lingor_grass","LGrassDryEffects"},
+			{"lingor_grass","LGrassEffects"},
+			{"lingor_grass","LSandEffects"},
+			{"lingor_stones","LDustEffects"},
+			{"lingor_stones","LDirtEffects"},
+			{"lingor_stones","LStonesEffects"},
+			{"lingor_stones","LGrassDryEffects"},
+			{"lingor_stones","LGrassEffects"},
+			{"lingor_stones","LSandEffects"},
+			{"lingor_wood","LDustEffects"},
+			{"lingor_wood","LDirtEffects"},
+			{"lingor_wood","LStonesEffects"},
+			{"lingor_wood","LGrassDryEffects"},
+			{"lingor_wood","LGrassEffects"},
+			{"lingor_rock","LDustEffects"},
+			{"lingor_rock","LDirtEffects"},
+			{"lingor_rock","LStonesEffects"},
+			{"lingor_rock","LGrassDryEffects"},
+			{"lingor_rock","LSandEffects"}
 		};
 	};
 	class Tank: LandVehicle
@@ -1854,7 +1924,36 @@ class CfgVehicles{
 			{"mak319_thorn","RDirtEffectsBig"},
 			{"mak319_thorn","RGrassEffectsDryBig"},
 			{"mak319_desert","RDustEffects"},
-			{"mak319_desert","RDirtEffectsBig"}
+			{"mak319_desert","RDirtEffectsBig"},
+			// Lingor
+			{"lingor_sand","RStonesEffectsBig"},
+			{"lingor_sand","RDirtEffectsBig"},
+			{"lingor_sand","RGrassEffectsDryBig"},
+			{"lingor_sand","RGrassEffectsBig"},
+			{"lingor_sand","RDustEffects"},
+			{"lingor_sand","RSandEffects"},
+			{"lingor_grass","RStonesEffectsBig"},
+			{"lingor_grass","RDirtEffectsBig"},
+			{"lingor_grass","RGrassEffectsDryBig"},
+			{"lingor_grass","RGrassEffectsBig"},
+			{"lingor_grass","RDustEffects"},
+			{"lingor_grass","RSandEffects"},
+			{"lingor_stones","RStonesEffectsBig"},
+			{"lingor_stones","RDirtEffectsBig"},
+			{"lingor_stones","RGrassEffectsDryBig"},
+			{"lingor_stones","RGrassEffectsBig"},
+			{"lingor_stones","RDustEffects"},
+			{"lingor_stones","RSandEffects"},
+			{"lingor_wood","RStonesEffectsBig"},
+			{"lingor_wood","RDirtEffectsBig"},
+			{"lingor_wood","RGrassEffectsDryBig"},
+			{"lingor_wood","RGrassEffectsBig"},
+			{"lingor_wood","RDustEffects"},
+			{"lingor_rock","RStonesEffectsBig"},
+			{"lingor_rock","RDirtEffectsBig"},
+			{"lingor_rock","RGrassEffectsDryBig"},
+			{"lingor_rock","RDustEffects"},
+			{"lingor_rock","RSandEffects"}
 		};
 		leftDustEffects[] =
 		{
@@ -2327,7 +2426,36 @@ class CfgVehicles{
 			{"mak319_thorn","LDirtEffectsBig"},
 			{"mak319_thorn","LGrassEffectsDryBig"},
 			{"mak319_desert","LDustEffects"},
-			{"mak319_desert","LDirtEffectsBig"}
+			{"mak319_desert","LDirtEffectsBig"},
+			// Lingor
+			{"lingor_sand","LStonesEffectsBig"},
+			{"lingor_sand","LDirtEffectsBig"},
+			{"lingor_sand","LGrassEffectsDryBig"},
+			{"lingor_sand","LGrassEffectsBig"},
+			{"lingor_sand","LDustEffects"},
+			{"lingor_sand","LSandEffects"},
+			{"lingor_grass","LStonesEffectsBig"},
+			{"lingor_grass","LDirtEffectsBig"},
+			{"lingor_grass","LGrassEffectsDryBig"},
+			{"lingor_grass","LGrassEffectsBig"},
+			{"lingor_grass","LDustEffects"},
+			{"lingor_grass","LSandEffects"},
+			{"lingor_stones","LStonesEffectsBig"},
+			{"lingor_stones","LDirtEffectsBig"},
+			{"lingor_stones","LGrassEffectsDryBig"},
+			{"lingor_stones","LGrassEffectsBig"},
+			{"lingor_stones","LDustEffects"},
+			{"lingor_stones","LSandEffects"},
+			{"lingor_wood","LStonesEffectsBig"},
+			{"lingor_wood","LDirtEffectsBig"},
+			{"lingor_wood","LGrassEffectsDryBig"},
+			{"lingor_wood","LGrassEffectsBig"},
+			{"lingor_wood","LDustEffects"},
+			{"lingor_rock","LStonesEffectsBig"},
+			{"lingor_rock","LDirtEffectsBig"},
+			{"lingor_rock","LGrassEffectsDryBig"},
+			{"lingor_rock","LDustEffects"},
+			{"lingor_rock","LSandEffects"}
 		};
 	};
 	class Air: AllVehicles
@@ -2502,7 +2630,37 @@ class CfgVehicles{
 			{"mak319_thorn","RgrassdryEffects"},
 			{"mak319_desert","RDustEffectsAir"},
 			{"mak319_desert","RDustEffects"},
-			{"mak319_desert","RDirtEffects"}
+			{"mak319_desert","RDirtEffects"},
+			// Lingor
+			{"lingor_sand","RDustEffectsAir"},
+			{"lingor_sand","RSandEffects"},
+			{"lingor_sand","RGrassEffects"},
+			{"lingor_sand","RDirtEffects"},
+			{"lingor_sand","RStonesEffects"},
+			{"lingor_sand","RGrassDryEffects"},
+			{"lingor_grass","RDustEffectsAir"},
+			{"lingor_grass","RSandEffects"},
+			{"lingor_grass","RGrassEffects"},
+			{"lingor_grass","RDirtEffects"},
+			{"lingor_grass","RStonesEffects"},
+			{"lingor_grass","RGrassDryEffects"},
+			{"lingor_stones","RDustEffectsAir"},
+			{"lingor_stones","RSandEffects"},
+			{"lingor_stones","RGrassEffects"},
+			{"lingor_stones","RDirtEffects"},
+			{"lingor_stones","RStonesEffects"},
+			{"lingor_stones","RGrassDryEffects"},
+			{"lingor_wood","RDustEffectsAir"},
+			{"lingor_wood","RSandEffects"},
+			{"lingor_wood","RGrassEffects"},
+			{"lingor_wood","RDirtEffects"},
+			{"lingor_wood","RStonesEffects"},
+			{"lingor_wood","RGrassDryEffects"},
+			{"lingor_rock","RDustEffectsAir"},
+			{"lingor_rock","RSandEffects"},
+			{"lingor_rock","RDirtEffects"},
+			{"lingor_rock","RStonesEffects"},
+			{"lingor_rock","RGrassDryEffects"}
 		};
 		leftDustEffects[] =
 		{
@@ -2675,7 +2833,37 @@ class CfgVehicles{
 			{"mak319_thorn","LgrassdryEffects"},
 			{"mak319_desert","LDustEffectsAir"},
 			{"mak319_desert","LDustEffects"},
-			{"mak319_desert","LDirtEffects"}
+			{"mak319_desert","LDirtEffects"},
+			// Lingor
+			{"lingor_sand","LDustEffectsAir"},
+			{"lingor_sand","LSandEffects"},
+			{"lingor_sand","LGrassEffects"},
+			{"lingor_sand","LDirtEffects"},
+			{"lingor_sand","LStonesEffects"},
+			{"lingor_sand","LGrassDryEffects"},
+			{"lingor_grass","LDustEffectsAir"},
+			{"lingor_grass","LSandEffects"},
+			{"lingor_grass","LGrassEffects"},
+			{"lingor_grass","LDirtEffects"},
+			{"lingor_grass","LStonesEffects"},
+			{"lingor_grass","LGrassDryEffects"},
+			{"lingor_stones","LDustEffectsAir"},
+			{"lingor_stones","LSandEffects"},
+			{"lingor_stones","LGrassEffects"},
+			{"lingor_stones","LDirtEffects"},
+			{"lingor_stones","LStonesEffects"},
+			{"lingor_stones","LGrassDryEffects"},
+			{"lingor_wood","LDustEffectsAir"},
+			{"lingor_wood","LSandEffects"},
+			{"lingor_wood","LGrassEffects"},
+			{"lingor_wood","LDirtEffects"},
+			{"lingor_wood","LStonesEffects"},
+			{"lingor_wood","LGrassDryEffects"},
+			{"lingor_rock","LDustEffectsAir"},
+			{"lingor_rock","LSandEffects"},
+			{"lingor_rock","LDirtEffects"},
+			{"lingor_rock","LStonesEffects"},
+			{"lingor_rock","LGrassDryEffects"}
 		};
 	};
 };
