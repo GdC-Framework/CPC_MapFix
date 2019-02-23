@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.10;
-		requiredAddons[] = {"CUP_Worlds_DustEffects","pja305"};
+		requiredAddons[] = {"CUP_Worlds_DustEffects","pja305","A3_Map_lingor3","A3_Map_dingor"};
 	};
 };
 class CfgVehicles{
@@ -221,7 +221,13 @@ class CfgVehicles{
 			{"lingor_sand","RDustEffectsMan"},
 			{"lingor_stones","RDustEffectsMan"},
 			{"lingor_wood","RDustEffectsMan"},
-			{"lingor_rock","RDustEffectsMan"}
+			{"lingor_rock","RDustEffectsMan"},
+			// Dingor
+			{"dingor_grass","RDustEffectsMan"},
+			{"dingor_stones","RDustEffectsMan"},
+			{"dingor_rock","RDustEffectsMan"},
+			{"dingor_sand","RDustEffectsMan"},
+			{"dingor_wood","RDustEffectsMan"}
 		};
 		leftDustEffects[] ={
 			{"GdtGrassShort","LDustEffectsMan"},
@@ -428,7 +434,13 @@ class CfgVehicles{
 			{"lingor_sand","LDustEffectsMan"},
 			{"lingor_stones","LDustEffectsMan"},
 			{"lingor_wood","LDustEffectsMan"},
-			{"lingor_rock","LDustEffectsMan"}
+			{"lingor_rock","LDustEffectsMan"},
+			// Dingor
+			{"dingor_grass","LDustEffectsMan"},
+			{"dingor_stones","LDustEffectsMan"},
+			{"dingor_rock","LDustEffectsMan"},
+			{"dingor_sand","LDustEffectsMan"},
+			{"dingor_wood","LDustEffectsMan"}
 		};
 	};
 	class Car: LandVehicle
@@ -925,13 +937,11 @@ class CfgVehicles{
 			{"lingor_grass","RStonesEffects"},
 			{"lingor_grass","RGrassDryEffects"},
 			{"lingor_grass","RGrassEffects"},
-			{"lingor_grass","RSandEffects"},
 			{"lingor_stones","RDustEffects"},
 			{"lingor_stones","RDirtEffects"},
 			{"lingor_stones","RStonesEffects"},
 			{"lingor_stones","RGrassDryEffects"},
 			{"lingor_stones","RGrassEffects"},
-			{"lingor_stones","RSandEffects"},
 			{"lingor_wood","RDustEffects"},
 			{"lingor_wood","RDirtEffects"},
 			{"lingor_wood","RStonesEffects"},
@@ -941,7 +951,29 @@ class CfgVehicles{
 			{"lingor_rock","RDirtEffects"},
 			{"lingor_rock","RStonesEffects"},
 			{"lingor_rock","RGrassDryEffects"},
-			{"lingor_rock","RSandEffects"}
+			// Dingor
+			{"dingor_grass","RDustEffects"},
+			{"dingor_grass","RDirtEffectsBig"},
+			{"dingor_grass","RStonesEffectsBig"},
+			{"dingor_grass","RGrassEffectsDryBig"},
+			{"dingor_grass","RSandEffects"},
+			{"dingor_rock","RDustEffects"},
+			{"dingor_rock","RDirtEffectsBig"},
+			{"dingor_rock","RStonesEffectsBig"},
+			{"dingor_rock","RSandEffects"},
+			{"dingor_stones","RDustEffects"},
+			{"dingor_stones","RGrassEffectsBig"},
+			{"dingor_stones","RDirtEffectsBig"},
+			{"dingor_stones","RStonesEffectsBig"},
+			{"dingor_stones","RSandEffects"},
+			{"dingor_wood","RDustEffects"},
+			{"dingor_wood","RDirtEffectsBig"},
+			{"dingor_wood","RStonesEffectsBig"},
+			{"dingor_wood","RSandEffects"},
+			{"dingor_sand","RDustEffects"},
+			{"dingor_sand","RDirtEffectsBig"},
+			{"dingor_sand","RStonesEffectsBig"},
+			{"dingor_sand","RSandEffects"}
 		};
 		leftDustEffects[] ={
 			{"GdtGrassShort","LDustEffects"},
@@ -1434,13 +1466,11 @@ class CfgVehicles{
 			{"lingor_grass","LStonesEffects"},
 			{"lingor_grass","LGrassDryEffects"},
 			{"lingor_grass","LGrassEffects"},
-			{"lingor_grass","LSandEffects"},
 			{"lingor_stones","LDustEffects"},
 			{"lingor_stones","LDirtEffects"},
 			{"lingor_stones","LStonesEffects"},
 			{"lingor_stones","LGrassDryEffects"},
 			{"lingor_stones","LGrassEffects"},
-			{"lingor_stones","LSandEffects"},
 			{"lingor_wood","LDustEffects"},
 			{"lingor_wood","LDirtEffects"},
 			{"lingor_wood","LStonesEffects"},
@@ -1450,7 +1480,29 @@ class CfgVehicles{
 			{"lingor_rock","LDirtEffects"},
 			{"lingor_rock","LStonesEffects"},
 			{"lingor_rock","LGrassDryEffects"},
-			{"lingor_rock","LSandEffects"}
+			// Dingor
+			{"dingor_grass","LDustEffects"},
+			{"dingor_grass","LDirtEffectsBig"},
+			{"dingor_grass","LStonesEffectsBig"},
+			{"dingor_grass","LGrassEffectsDryBig"},
+			{"dingor_grass","LSandEffects"},
+			{"dingor_rock","LDustEffects"},
+			{"dingor_rock","LDirtEffectsBig"},
+			{"dingor_rock","LStonesEffectsBig"},
+			{"dingor_rock","LSandEffects"},
+			{"dingor_stones","LDustEffects"},
+			{"dingor_stones","LGrassEffectsBig"},
+			{"dingor_stones","LDirtEffectsBig"},
+			{"dingor_stones","LStonesEffectsBig"},
+			{"dingor_stones","LSandEffects"},
+			{"dingor_wood","LDustEffects"},
+			{"dingor_wood","LDirtEffectsBig"},
+			{"dingor_wood","LStonesEffectsBig"},
+			{"dingor_wood","LSandEffects"},
+			{"dingor_sand","LDustEffects"},
+			{"dingor_sand","LDirtEffectsBig"},
+			{"dingor_sand","LStonesEffectsBig"},
+			{"dingor_sand","LSandEffects"}
 		};
 	};
 	class Tank: LandVehicle
@@ -1937,13 +1989,11 @@ class CfgVehicles{
 			{"lingor_grass","RGrassEffectsDryBig"},
 			{"lingor_grass","RGrassEffectsBig"},
 			{"lingor_grass","RDustEffects"},
-			{"lingor_grass","RSandEffects"},
 			{"lingor_stones","RStonesEffectsBig"},
 			{"lingor_stones","RDirtEffectsBig"},
 			{"lingor_stones","RGrassEffectsDryBig"},
 			{"lingor_stones","RGrassEffectsBig"},
 			{"lingor_stones","RDustEffects"},
-			{"lingor_stones","RSandEffects"},
 			{"lingor_wood","RStonesEffectsBig"},
 			{"lingor_wood","RDirtEffectsBig"},
 			{"lingor_wood","RGrassEffectsDryBig"},
@@ -1953,7 +2003,29 @@ class CfgVehicles{
 			{"lingor_rock","RDirtEffectsBig"},
 			{"lingor_rock","RGrassEffectsDryBig"},
 			{"lingor_rock","RDustEffects"},
-			{"lingor_rock","RSandEffects"}
+			// Dingor
+			{"dingor_grass","RDustEffects"},
+			{"dingor_grass","RDirtEffectsBig"},
+			{"dingor_grass","RStonesEffectsBig"},
+			{"dingor_grass","RGrassEffectsDryBig"},
+			{"dingor_grass","RSandEffects"},
+			{"dingor_rock","RDustEffects"},
+			{"dingor_rock","RDirtEffectsBig"},
+			{"dingor_rock","RStonesEffectsBig"},
+			{"dingor_rock","RSandEffects"},
+			{"dingor_stones","RDustEffects"},
+			{"dingor_stones","RGrassEffectsBig"},
+			{"dingor_stones","RDirtEffectsBig"},
+			{"dingor_stones","RStonesEffectsBig"},
+			{"dingor_stones","RSandEffects"},
+			{"dingor_wood","RDustEffects"},
+			{"dingor_wood","RDirtEffectsBig"},
+			{"dingor_wood","RStonesEffectsBig"},
+			{"dingor_wood","RSandEffects"},
+			{"dingor_sand","RDustEffects"},
+			{"dingor_sand","RDirtEffectsBig"},
+			{"dingor_sand","RStonesEffectsBig"},
+			{"dingor_sand","RSandEffects"}
 		};
 		leftDustEffects[] =
 		{
@@ -2439,13 +2511,11 @@ class CfgVehicles{
 			{"lingor_grass","LGrassEffectsDryBig"},
 			{"lingor_grass","LGrassEffectsBig"},
 			{"lingor_grass","LDustEffects"},
-			{"lingor_grass","LSandEffects"},
 			{"lingor_stones","LStonesEffectsBig"},
 			{"lingor_stones","LDirtEffectsBig"},
 			{"lingor_stones","LGrassEffectsDryBig"},
 			{"lingor_stones","LGrassEffectsBig"},
 			{"lingor_stones","LDustEffects"},
-			{"lingor_stones","LSandEffects"},
 			{"lingor_wood","LStonesEffectsBig"},
 			{"lingor_wood","LDirtEffectsBig"},
 			{"lingor_wood","LGrassEffectsDryBig"},
@@ -2455,7 +2525,29 @@ class CfgVehicles{
 			{"lingor_rock","LDirtEffectsBig"},
 			{"lingor_rock","LGrassEffectsDryBig"},
 			{"lingor_rock","LDustEffects"},
-			{"lingor_rock","LSandEffects"}
+			// Dingor
+			{"dingor_grass","LDustEffects"},
+			{"dingor_grass","LDirtEffectsBig"},
+			{"dingor_grass","LStonesEffectsBig"},
+			{"dingor_grass","LGrassEffectsDryBig"},
+			{"dingor_grass","LSandEffects"},
+			{"dingor_rock","LDustEffects"},
+			{"dingor_rock","LDirtEffectsBig"},
+			{"dingor_rock","LStonesEffectsBig"},
+			{"dingor_rock","LSandEffects"},
+			{"dingor_stones","LDustEffects"},
+			{"dingor_stones","LGrassEffectsBig"},
+			{"dingor_stones","LDirtEffectsBig"},
+			{"dingor_stones","LStonesEffectsBig"},
+			{"dingor_stones","LSandEffects"},
+			{"dingor_wood","LDustEffects"},
+			{"dingor_wood","LDirtEffectsBig"},
+			{"dingor_wood","LStonesEffectsBig"},
+			{"dingor_wood","LSandEffects"},
+			{"dingor_sand","LDustEffects"},
+			{"dingor_sand","LDirtEffectsBig"},
+			{"dingor_sand","LStonesEffectsBig"},
+			{"dingor_sand","LSandEffects"}
 		};
 	};
 	class Air: AllVehicles
@@ -2660,7 +2752,25 @@ class CfgVehicles{
 			{"lingor_rock","RSandEffects"},
 			{"lingor_rock","RDirtEffects"},
 			{"lingor_rock","RStonesEffects"},
-			{"lingor_rock","RGrassDryEffects"}
+			{"lingor_rock","RGrassDryEffects"},
+			// Dingor
+			{"dingor_grass","RDustEffectsAir"},
+			{"dingor_grass","RGrassDryEffects"},
+			{"dingor_grass","RDirtEffects"},
+			{"dingor_stones","RDustEffectsAir"},
+			{"dingor_stones","RGrassEffects"},
+			{"dingor_stones","RDirtEffects"},
+			{"dingor_rock","RDirtEffects"},
+			{"dingor_rock","RDustEffectsAir"},
+			{"dingor_rock","RStonesEffects"},
+			{"dingor_wood","RDustEffectsAir"},
+			{"dingor_wood","RSandEffects"},
+			{"dingor_wood","RDirtEffects"},
+			{"dingor_wood","RStonesEffects"},
+			{"dingor_sand","RDustEffectsAir"},
+			{"dingor_sand","RSandEffects"},
+			{"dingor_sand","RDirtEffects"},
+			{"dingor_sand","RStonesEffects"}
 		};
 		leftDustEffects[] =
 		{
@@ -2863,7 +2973,25 @@ class CfgVehicles{
 			{"lingor_rock","LSandEffects"},
 			{"lingor_rock","LDirtEffects"},
 			{"lingor_rock","LStonesEffects"},
-			{"lingor_rock","LGrassDryEffects"}
+			{"lingor_rock","LGrassDryEffects"},
+			// Dingor
+			{"dingor_grass","LDustEffectsAir"},
+			{"dingor_grass","LGrassDryEffects"},
+			{"dingor_grass","LDirtEffects"},
+			{"dingor_stones","LDustEffectsAir"},
+			{"dingor_stones","LGrassEffects"},
+			{"dingor_stones","LDirtEffects"},
+			{"dingor_rock","LDirtEffects"},
+			{"dingor_rock","LDustEffectsAir"},
+			{"dingor_rock","LStonesEffects"},
+			{"dingor_wood","LDustEffectsAir"},
+			{"dingor_wood","LSandEffects"},
+			{"dingor_wood","LDirtEffects"},
+			{"dingor_wood","LStonesEffects"},
+			{"dingor_sand","LDustEffectsAir"},
+			{"dingor_sand","LSandEffects"},
+			{"dingor_sand","LDirtEffects"},
+			{"dingor_sand","LStonesEffects"}
 		};
 	};
 };
