@@ -2231,7 +2231,7 @@ class CfgVehicles{
 			{"SurfIntConcrete","LDustEffects"},
 			{"SurfIntTiles","LDustEffects"},
 			{"SurfIntMetal","LDustEffects"},
-			{"dirtrunway","RDustEffects"},
+			{"dirtrunway","LDustEffects"},
 			// CUP TP
 			{"CRGrass1","LDustEffects"},
 			{"CRGrass1","LGrassEffectsBig"},
