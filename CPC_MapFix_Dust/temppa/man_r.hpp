@@ -1,133 +1,130 @@
 			//Tempa
-			{"tem_chamw_forest_Surface","RDustEffectsMan"},
-			{"tem_chamw_sand_Surface","RDustEffectsMan"},
-			{"tem_chamw_green_field_Surface","RDustEffectsMan"},
-			{"tem_chamw_grass_Surface","RDustEffectsMan"},
-			{"tem_chamw_yellow_field_Surface","RDustEffectsMan"},
-			{"tem_chamw_gray_sand_Surface","RDustEffectsMan"},
-			{"tem_cham_forest_Surface","RDustEffectsMan"},
-			{"tem_cham_sand_Surface","RDustEffectsMan"},
-			{"tem_cham_green_field_Surface","RDustEffectsMan"},
-			{"tem_cham_grass_Surface","RDustEffectsMan"},
-			{"tem_cham_yellow_field_Surface","RDustEffectsMan"},
-			{"tem_cham_gray_sand_Surface","RDustEffectsMan"},
-			{"tem_kujari_forest_Surface","RDustEffectsMan"},
-			{"tem_kujari_pelto_Surface","RDustEffectsMan"},
-			{"tem_kujari_vaalea_hiekka_Surface","RDustEffectsMan"},
-			{"tem_kujari_keltainen_hiekka_Surface","RDustEffectsMan"},
-			{"tem_kujari_tumma_hiekka_Surface","RDustEffectsMan"},
-			{"tem_kujari_dirt_road_surface","RDustEffectsMan"},
-			{"tem_kujari_path_surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_sammal_Surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_hiekka_vaalea_Surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_pelto_Surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_ruoho_Surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_metsahiekka_Surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_road_surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_path_surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_polku_surface","RDustEffectsMan"},
-			{"tem_vinjesvingen_kallio_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_sammal_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_hiekka_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_kallio_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_suo_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_pelto_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_vaaleahiekka_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_vesi_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_path_Surface","RDustEffectsMan"},
-			{"tem_suursaariw_polku_Surface","RDustEffectsMan"},
-			{"tem_suursaari_sammal_Surface","RDustEffectsMan"},
-			{"tem_suursaari_hiekka_Surface","RDustEffectsMan"},
-			{"tem_suursaari_kallio_Surface","RDustEffectsMan"},
-			{"tem_suursaari_suo_Surface","RDustEffectsMan"},
-			{"tem_suursaari_pelto_Surface","RDustEffectsMan"},
-			{"tem_suursaari_vaaleahiekka_Surface","RDustEffectsMan"},
-			{"tem_suursaari_vesi_Surface","RDustEffectsMan"},
-			{"tem_suursaari_path_Surface","RDustEffectsMan"},
-			{"tem_suursaari_polku_Surface","RDustEffectsMan"},
-			{"tem_olhava_sammal_Surface","RDustEffectsMan"},
-			{"tem_olhava_hietikko_vaalea_Surface","RDustEffectsMan"},
-			{"tem_olhava_pelto_Surface","RDustEffectsMan"},
-			{"tem_olhava_ruoho_Surface","RDustEffectsMan"},
-			{"tem_olhava_hiekka_Surface","RDustEffectsMan"},
-			{"tem_olhava_suo_Surface","RDustEffectsMan"},
-			{"tem_olhava_road_Surface","RDustEffectsMan"},
-			{"tem_olhava_path_Surface","RDustEffectsMan"},
-			{"tem_summas_sammal_Surface","RDustEffectsMan"},
-			{"tem_summas_hietikko_vaalea_Surface","RDustEffectsMan"},
-			{"tem_summas_pelto_Surface","RDustEffectsMan"},
-			{"tem_summas_ruoho_Surface","RDustEffectsMan"},
-			{"tem_summas_hiekka_Surface","RDustEffectsMan"},
-			{"tem_summas_suo_Surface","RDustEffectsMan"},
-			{"tem_summas_road_Surface","RDustEffectsMan"},
-			{"tem_summas_path_Surface","RDustEffectsMan"},
-			{"tem_summaw_sammal_Surface","RDustEffectsMan"},
-			{"tem_summaw_hiekka_vaalea_Surface","RDustEffectsMan"},
-			{"tem_summaw_pelto_Surface","RDustEffectsMan"},
-			{"tem_summaw_ruoho_Surface","RDustEffectsMan"},
-			{"tem_summaw_metsahiekka_Surface","RDustEffectsMan"},
-			{"tem_summaw_suo_Surface","RDustEffectsMan"},
-			{"tem_summaw_road_Surface","RDustEffectsMan"},
-			{"tem_summaw_path_Surface","RDustEffectsMan"},
-			{"tem_summa_sammal_Surface","RDustEffectsMan"},
-			{"tem_summa_hiekka_vaalea_Surface","RDustEffectsMan"},
-			{"tem_summa_pelto_Surface","RDustEffectsMan"},
-			{"tem_summa_ruoho_Surface","RDustEffectsMan"},
-			{"tem_summa_metsahiekka_Surface","RDustEffectsMan"},
-			{"tem_summa_suo_Surface","RDustEffectsMan"},
-			{"tem_summa_road_Surface","RDustEffectsMan"},
-			{"tem_summa_path_Surface","RDustEffectsMan"},
-			{"tem_anizay_dirt_road_Surface","RDustEffectsMan"},
-			{"tem_anizay_roaddirt_road_Surface","RDustEffectsMan"},
-			{"tem_anizay_airfield_Surface","RDustEffectsMan"},
-			{"tem_anizay_pelto_Surface","RDustEffectsMan"},
-			{"tem_anizay_tumma_hiekka_Surface","RDustEffectsMan"},
-			{"tem_anizay_soil_Surface","RDustEffectsMan"},
-			{"tem_anizay_keltainen_hiekka_Surface","RDustEffectsMan"},
-			{"tem_anizay_vaalea_hiekka_Surface","RDustEffectsMan"},
-			{"tem_ihantala_sammal_Surface","RDustEffectsMan"},
-			{"tem_ihantala_hiekka_vaalea_Surface","RDustEffectsMan"},
-			{"tem_ihantala_pelto_Surface","RDustEffectsMan"},
-			{"tem_ihantala_ruoho_Surface","RDustEffectsMan"},
-			{"tem_ihantala_road_Surface","RDustEffectsMan"},
-			{"tem_ihantala_metsahiekka_Surface","RDustEffectsMan"},
-			{"tem_ihantala_suo_Surface","RDustEffectsMan"},
-			{"tem_ihantala_path_Surface","RDustEffectsMan"},
-			{"tem_ihantala_suo_Surface","RDustEffectsMan"},
-			{"tem_ihantalaw_sammal_Surface","RDustEffectsMan"},
-			{"tem_ihantalaw_hiekka_vaalea_Surface","RDustEffectsMan"},
-			{"tem_ihantalaw_pelto_Surface","RDustEffectsMan"},
-			{"tem_ihantalaw_ruoho_Surface","RDustEffectsMan"},
-			{"tem_ihantalaw_road_Surface","RDustEffectsMan"},
-			{"tem_ihantalaw_metsahiekka_Surface","RDustEffectsMan"},
-			{"tem_ihantalaw_suo_Surface","RDustEffectsMan"},
-			{"tem_ihantala_path_Surface","RDustEffectsMan"},
-			{"tem_ihantalaw_suo_Surface","RDustEffectsMan"},
-			{"hell_road_Surface","RDustEffectsMan"},
-			{"hell_path_Surface","RDustEffectsMan"},
-			{"hell_sammal_Surface","RDustEffectsMan"},
-			{"hell_hiekka_Surface","RDustEffectsMan"},
-			{"hell_hiekka_vaalea_Surface","RDustEffectsMan"},
-			{"hell_tienreuna_Surface","RDustEffectsMan"},
-			{"hell_pelto_Surface","RDustEffectsMan"},
-			{"hell_ruoho_Surface","RDustEffectsMan"},
-			{"pulau_beach_Surface","RDustEffectsMan"},
-			{"pulau_pelto_Surface","RDustEffectsMan"},
-			{"pulau_forest_Surface","RDustEffectsMan"},
-			{"pulau_grass_short_Surface","RDustEffectsMan"},
-			{"pulau_reddirt_Surface","RDustEffectsMan"},
-			{"pulau_lentokentta_Surface","RDustEffectsMan"},
-			{"pulau_trail_Surface","RDustEffectsMan"},
-			{"pulau_road_Surface","RDustEffectsMan"},
-			{"ruha_road_Surface","RDustEffectsMan"},
-			{"ruha_lentokentta_Surface","RDustEffectsMan"},
-			{"ruha_path_Surface","RDustEffectsMan"},
-			{"ruha_roadtarmac_highway_Surface","RDustEffectsMan"},
-			{"ruha_roadtarmac_main_Surface","RDustEffectsMan"},
-			{"ruha_joki_Surface","RDustEffectsMan"},
-			{"ruha_suo_Surface","RDustEffectsMan"},
-			{"ruha_pelto_Surface","RDustEffectsMan"},
-			{"ruha_hiekka_vaalea_Surface","RDustEffectsMan"},
-			{"ruha_keltainen_pelto_Surface","RDustEffectsMan"},
-			{"ruha_ruoho_Surface","RDustEffectsMan"},
-			{"ruha_hakkuu_Surface","RDustEffectsMan"}
+			tem_chamw_forest_Surface[] = {"RDustEffectsMan"};
+			tem_chamw_sand_Surface[] = {"RDustEffectsMan"};
+			tem_chamw_green_field_Surface[] = {"RDustEffectsMan"};
+			tem_chamw_grass_Surface[] = {"RDustEffectsMan"};
+			tem_chamw_yellow_field_Surface[] = {"RDustEffectsMan"};
+			tem_chamw_gray_sand_Surface[] = {"RDustEffectsMan"};
+			tem_cham_forest_Surface[] = {"RDustEffectsMan"};
+			tem_cham_sand_Surface[] = {"RDustEffectsMan"};
+			tem_cham_green_field_Surface[] = {"RDustEffectsMan"};
+			tem_cham_grass_Surface[] = {"RDustEffectsMan"};
+			tem_cham_yellow_field_Surface[] = {"RDustEffectsMan"};
+			tem_cham_gray_sand_Surface[] = {"RDustEffectsMan"};
+			tem_kujari_forest_Surface[] = {"RDustEffectsMan"};
+			tem_kujari_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_kujari_vaalea_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_kujari_keltainen_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_kujari_tumma_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_kujari_dirt_road_surface[] = {"RDustEffectsMan"};
+			tem_kujari_path_surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_hiekka_vaalea_Surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_ruoho_Surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_metsahiekka_Surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_road_surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_path_surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_polku_surface[] = {"RDustEffectsMan"};
+			tem_vinjesvingen_kallio_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_kallio_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_suo_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_vaaleahiekka_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_vesi_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_path_Surface[] = {"RDustEffectsMan"};
+			tem_suursaariw_polku_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_kallio_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_suo_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_vaaleahiekka_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_vesi_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_path_Surface[] = {"RDustEffectsMan"};
+			tem_suursaari_polku_Surface[] = {"RDustEffectsMan"};
+			tem_olhava_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_olhava_hietikko_vaalea_Surface[] = {"RDustEffectsMan"};
+			tem_olhava_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_olhava_ruoho_Surface[] = {"RDustEffectsMan"};
+			tem_olhava_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_olhava_suo_Surface[] = {"RDustEffectsMan"};
+			tem_olhava_road_Surface[] = {"RDustEffectsMan"};
+			tem_olhava_path_Surface[] = {"RDustEffectsMan"};
+			tem_summas_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_summas_hietikko_vaalea_Surface[] = {"RDustEffectsMan"};
+			tem_summas_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_summas_ruoho_Surface[] = {"RDustEffectsMan"};
+			tem_summas_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_summas_suo_Surface[] = {"RDustEffectsMan"};
+			tem_summas_road_Surface[] = {"RDustEffectsMan"};
+			tem_summas_path_Surface[] = {"RDustEffectsMan"};
+			tem_summaw_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_summaw_hiekka_vaalea_Surface[] = {"RDustEffectsMan"};
+			tem_summaw_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_summaw_ruoho_Surface[] = {"RDustEffectsMan"};
+			tem_summaw_metsahiekka_Surface[] = {"RDustEffectsMan"};
+			tem_summaw_suo_Surface[] = {"RDustEffectsMan"};
+			tem_summaw_road_Surface[] = {"RDustEffectsMan"};
+			tem_summaw_path_Surface[] = {"RDustEffectsMan"};
+			tem_summa_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_summa_hiekka_vaalea_Surface[] = {"RDustEffectsMan"};
+			tem_summa_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_summa_ruoho_Surface[] = {"RDustEffectsMan"};
+			tem_summa_metsahiekka_Surface[] = {"RDustEffectsMan"};
+			tem_summa_suo_Surface[] = {"RDustEffectsMan"};
+			tem_summa_road_Surface[] = {"RDustEffectsMan"};
+			tem_summa_path_Surface[] = {"RDustEffectsMan"};
+			tem_anizay_dirt_road_Surface[] = {"RDustEffectsMan"};
+			tem_anizay_roaddirt_road_Surface[] = {"RDustEffectsMan"};
+			tem_anizay_airfield_Surface[] = {"RDustEffectsMan"};
+			tem_anizay_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_anizay_tumma_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_anizay_soil_Surface[] = {"RDustEffectsMan"};
+			tem_anizay_keltainen_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_anizay_vaalea_hiekka_Surface[] = {"RDustEffectsMan"};
+			tem_ihantala_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_ihantala_hiekka_vaalea_Surface[] = {"RDustEffectsMan"};
+			tem_ihantala_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_ihantala_ruoho_Surface[] = {"RDustEffectsMan"};
+			tem_ihantala_road_Surface[] = {"RDustEffectsMan"};
+			tem_ihantala_metsahiekka_Surface[] = {"RDustEffectsMan"};
+			tem_ihantala_suo_Surface[] = {"RDustEffectsMan"};
+			tem_ihantala_path_Surface[] = {"RDustEffectsMan"};
+			tem_ihantalaw_sammal_Surface[] = {"RDustEffectsMan"};
+			tem_ihantalaw_hiekka_vaalea_Surface[] = {"RDustEffectsMan"};
+			tem_ihantalaw_pelto_Surface[] = {"RDustEffectsMan"};
+			tem_ihantalaw_ruoho_Surface[] = {"RDustEffectsMan"};
+			tem_ihantalaw_road_Surface[] = {"RDustEffectsMan"};
+			tem_ihantalaw_metsahiekka_Surface[] = {"RDustEffectsMan"};
+			tem_ihantalaw_suo_Surface[] = {"RDustEffectsMan"};
+			hell_road_Surface[] = {"RDustEffectsMan"};
+			hell_path_Surface[] = {"RDustEffectsMan"};
+			hell_sammal_Surface[] = {"RDustEffectsMan"};
+			hell_hiekka_Surface[] = {"RDustEffectsMan"};
+			hell_hiekka_vaalea_Surface[] = {"RDustEffectsMan"};
+			hell_tienreuna_Surface[] = {"RDustEffectsMan"};
+			hell_pelto_Surface[] = {"RDustEffectsMan"};
+			hell_ruoho_Surface[] = {"RDustEffectsMan"};
+			pulau_beach_Surface[] = {"RDustEffectsMan"};
+			pulau_pelto_Surface[] = {"RDustEffectsMan"};
+			pulau_forest_Surface[] = {"RDustEffectsMan"};
+			pulau_grass_short_Surface[] = {"RDustEffectsMan"};
+			pulau_reddirt_Surface[] = {"RDustEffectsMan"};
+			pulau_lentokentta_Surface[] = {"RDustEffectsMan"};
+			pulau_trail_Surface[] = {"RDustEffectsMan"};
+			pulau_road_Surface[] = {"RDustEffectsMan"};
+			ruha_road_Surface[] = {"RDustEffectsMan"};
+			ruha_lentokentta_Surface[] = {"RDustEffectsMan"};
+			ruha_path_Surface[] = {"RDustEffectsMan"};
+			ruha_roadtarmac_highway_Surface[] = {"RDustEffectsMan"};
+			ruha_roadtarmac_main_Surface[] = {"RDustEffectsMan"};
+			ruha_joki_Surface[] = {"RDustEffectsMan"};
+			ruha_suo_Surface[] = {"RDustEffectsMan"};
+			ruha_pelto_Surface[] = {"RDustEffectsMan"};
+			ruha_hiekka_vaalea_Surface[] = {"RDustEffectsMan"};
+			ruha_keltainen_pelto_Surface[] = {"RDustEffectsMan"};
+			ruha_ruoho_Surface[] = {"RDustEffectsMan"};
+			ruha_hakkuu_Surface[] = {"RDustEffectsMan"};

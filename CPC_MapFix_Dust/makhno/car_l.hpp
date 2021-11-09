@@ -1,37 +1,14 @@
-			// Ndjenahoud
-			{"mak319_desgrass","LDustEffects"},
-			{"mak319_desgrass","LDirtEffects"},
-			{"mak319_desgrass","LStonesEffects"},
-			{"mak319_stony","LDustEffects"},
-			{"mak319_stony","LDirtEffects"},
-			{"mak319_stony","LGrassEffects"},
-			{"mak308_Dirt","LDustEffects"},
-			{"mak308_Dirt","LDirtEffects"},
-			{"mak308_Dirt","LGrassEffects"},
-			{"mak308_GrassDry","LDustEffects"},
-			{"mak308_GrassDry","LDirtEffects"},
-			{"mak308_GrassDry","LgrassdryEffects"},
-			{"mak319_thorn","LDustEffects"},
-			{"mak319_thorn","LDirtEffects"},
-			{"mak319_thorn","LgrassdryEffects"},
-			{"mak319_desert","LDustEffects"},
-			{"mak319_desert","LDirtEffectsBig"},
-			{"mak319_desert","LSandEffects"},
 			//N'ziwasogo (projeta 305)
-			{"mak305_dirt","LDustEffects"},
-			{"mak305_dirt","LDirtEffects"},
-			{"mak305_jungle","LDustEffects"},
-			{"mak305_jungle","LDirtEffects"},
-			{"mak305_jungle","LGrassEffects"},
-			{"mak305_dirtgrass","LDustEffects"},
-			{"mak305_dirtgrass","LDirtEffects"},
-			{"mak305_dirtgrass","LGrassEffects"},
-			{"mak305_palm","LDustEffects"},
-			{"mak305_palm","LDirtEffects"},
-			{"mak305_palm","LGrassDryEffects"},
-			{"mak305_palmbroken","LDustEffects"},
-			{"mak305_palmbroken","LDirtEffects"},
-			{"mak305_palmbroken","LGrassDryEffects"},
-			{"mak305_sand","LDustEffects"},
-			{"mak305_sand","LDirtEffects"},
-			{"mak305_sand","LSandEffects"},
+			mak305_dirt[] = {"LDustEffects","LDirtEffects"};
+			mak305_jungle[] = {"LDustEffects","LDirtEffects","LGrassEffects"};
+			mak305_dirtgrass[] = {"LDustEffects","LDirtEffects","LGrassEffects"};
+			mak305_palm[] = {"LDustEffects","LDirtEffects","LGrassDryEffects"};
+			mak305_palmbroken[] = {"LDustEffects","LDirtEffects","LGrassDryEffects"};
+			mak305_sand[] = {"LDustEffects","LDirtEffects","LSandEffects"};
+			// Ndjenahoud
+			mak319_desgrass[] = {"LDustEffects","LDirtEffects","LStonesEffects"};
+			mak319_stony[] = {"LDustEffects","LDirtEffects","LGrassEffects"};
+			mak308_Dirt[] = {"LDustEffects","LDirtEffects","LGrassEffects"};
+			mak308_GrassDry[] = {"LDustEffects","LDirtEffects","LgrassdryEffects"};
+			mak319_thorn[] = {"LDustEffects","LDirtEffects","LgrassdryEffects"};
+			mak319_desert[] = {"LDustEffects","LDirtEffectsBig","LSandEffects"};

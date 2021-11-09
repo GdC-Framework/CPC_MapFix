@@ -1,67 +1,18 @@
 			// Duala
-			{"duala_grass","RDustEffects"},
-			{"duala_grass","RDirtEffectsBig"},
-			{"duala_grass","RStonesEffectsBig"},
-			{"duala_grass","RGrassEffectsDryBig"},
-			{"duala_rock","RDustEffects"},
-			{"duala_rock","RDirtEffectsBig"},
-			{"duala_rock","RStonesEffectsBig"},
-			{"duala_stones","RDustEffects"},
-			{"duala_stones","RGrassEffectsBig"},
-			{"duala_stones","RDirtEffectsBig"},
-			{"duala_stones","RStonesEffectsBig"},
-			{"duala_wood","RDustEffects"},
-			{"duala_wood","RDirtEffectsBig"},
-			{"duala_wood","RStonesEffectsBig"},
-			{"duala_sand","RDustEffects"},
-			{"duala_sand","RDirtEffectsBig"},
-			{"duala_sand","RStonesEffectsBig"},
+			duala_grass[] = {"RDustEffects","RDirtEffectsBig","RStonesEffectsBig","RGrassEffectsDryBig"};
+			duala_rock[] = {"RDustEffects","RDirtEffectsBig","RStonesEffectsBig"};
+			duala_stones[] = {"RDustEffects","RGrassEffectsBig","RDirtEffectsBig","RStonesEffectsBig"};
+			duala_wood[] = {"RDustEffects","RDirtEffectsBig","RStonesEffectsBig"};
+			duala_sand[] = {"RDustEffects","RDirtEffectsBig","RStonesEffectsBig"};
 			// Lingor
-			{"lingor_sand","RDustEffects"},
-			{"lingor_sand","RDirtEffects"},
-			{"lingor_sand","RStonesEffects"},
-			{"lingor_sand","RGrassDryEffects"},
-			{"lingor_sand","RGrassEffects"},
-			{"lingor_sand","RSandEffects"},
-			{"lingor_grass","RDustEffects"},
-			{"lingor_grass","RDirtEffects"},
-			{"lingor_grass","RStonesEffects"},
-			{"lingor_grass","RGrassDryEffects"},
-			{"lingor_grass","RGrassEffects"},
-			{"lingor_stones","RDustEffects"},
-			{"lingor_stones","RDirtEffects"},
-			{"lingor_stones","RStonesEffects"},
-			{"lingor_stones","RGrassDryEffects"},
-			{"lingor_stones","RGrassEffects"},
-			{"lingor_wood","RDustEffects"},
-			{"lingor_wood","RDirtEffects"},
-			{"lingor_wood","RStonesEffects"},
-			{"lingor_wood","RGrassDryEffects"},
-			{"lingor_wood","RGrassEffects"},
-			{"lingor_rock","RDustEffects"},
-			{"lingor_rock","RDirtEffects"},
-			{"lingor_rock","RStonesEffects"},
-			{"lingor_rock","RGrassDryEffects"},
+			lingor_sand[] = {"RDustEffects","RDirtEffects","RStonesEffects","RGrassDryEffects","RGrassEffects","RSandEffects"};
+			lingor_grass[] = {"RDustEffects","RDirtEffects","RStonesEffects","RGrassDryEffects","RGrassEffects"};
+			lingor_stones[] = {"RDustEffects","RDirtEffects","RStonesEffects","RGrassDryEffects","RGrassEffects"};
+			lingor_wood[] = {"RDustEffects","RDirtEffects","RStonesEffects","RGrassDryEffects","RGrassEffects"};
+			lingor_rock[] = {"RDustEffects","RDirtEffects","RStonesEffects","RGrassDryEffects"};
 			// Dingor
-			{"dingor_grass","RDustEffects"},
-			{"dingor_grass","RDirtEffectsBig"},
-			{"dingor_grass","RStonesEffectsBig"},
-			{"dingor_grass","RGrassEffectsDryBig"},
-			{"dingor_grass","RSandEffects"},
-			{"dingor_rock","RDustEffects"},
-			{"dingor_rock","RDirtEffectsBig"},
-			{"dingor_rock","RStonesEffectsBig"},
-			{"dingor_rock","RSandEffects"},
-			{"dingor_stones","RDustEffects"},
-			{"dingor_stones","RGrassEffectsBig"},
-			{"dingor_stones","RDirtEffectsBig"},
-			{"dingor_stones","RStonesEffectsBig"},
-			{"dingor_stones","RSandEffects"},
-			{"dingor_wood","RDustEffects"},
-			{"dingor_wood","RDirtEffectsBig"},
-			{"dingor_wood","RStonesEffectsBig"},
-			{"dingor_wood","RSandEffects"},
-			{"dingor_sand","RDustEffects"},
-			{"dingor_sand","RDirtEffectsBig"},
-			{"dingor_sand","RStonesEffectsBig"},
-			{"dingor_sand","RSandEffects"},
+			dingor_grass[] = {"RDustEffects","RDirtEffectsBig","RStonesEffectsBig","RGrassEffectsDryBig","RSandEffects"};
+			dingor_rock[] = {"RDustEffects","RDirtEffectsBig","RStonesEffectsBig","RSandEffects"};
+			dingor_stones[] = {"RDustEffects","RGrassEffectsBig","RDirtEffectsBig","RStonesEffectsBig","RSandEffects"};
+			dingor_wood[] = {"RDustEffects","RDirtEffectsBig","RStonesEffectsBig","RSandEffects"};
+			dingor_sand[] = {"RDustEffects","RDirtEffectsBig","RStonesEffectsBig","RSandEffects"};

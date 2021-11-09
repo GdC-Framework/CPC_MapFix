@@ -1,140 +1,60 @@
 			// CUP TP
-			{"CRGrass1","LDustEffects"},
-			{"CRGrass1","LGrassEffectsBig"},
-			{"CRGrass1","LDirtEffectsBig"},
-			{"CRGrass2","LDustEffects"},
-			{"CRGrass2","LGrassEffectsBig"},
-			{"CRGrass2","LDirtEffectsBig"},
-			{"CRGrassW1","LDustEffects"},
-			{"CRGrassW1","LGrassEffectsBig"},
-			{"CRGrassW1","LDirtEffectsBig"},
-			{"CRGrassW2","LDustEffects"},
-			{"CRGrassW2","LGrassEffectsBig"},
-			{"CRGrassW2","LDirtEffectsBig"},
-			{"CRField1","LDustEffects"},
-			{"CRField1","LGrassEffectsBig"},
-			{"CRField1","LDirtEffectsBig"},
-			{"CRField2","LDustEffects"},
-			{"CRField2","LGrassEffectsBig"},
-			{"CRField2","LDirtEffectsBig"},
-			{"CRForest1","LDustEffects"},
-			{"CRForest1","LGrassEffectsBig"},
-			{"CRForest1","LDirtEffectsBig"},
-			{"CRForest2","LDustEffects"},
-			{"CRForest2","LGrassEffectsBig"},
-			{"CRForest2","LDirtEffectsBig"},
-			{"CRGrit1","LDustEffects"},
-			{"CRGrit1","LDirtEffectsBig"},
-			{"CRHeather","LDustEffects"},
-			{"CRHeather","LGrassEffectsBig"},
-			{"CRHeather","LDirtEffectsBig"},
-			{"CRConcrete","LDirtEffectsBig"},
-			{"TKAsfalt","LDirtEffectsBig"},
-			{"TKBeton","LDustEffects"},
-			{"RoadDirt_EP1","LDustEffects"},
-			{"RoadTarmac_EP11","LDirtEffectsBig"},
-			{"TKPlevel","LDustEffects"},
-			{"TKPlevel","LGrassEffectsBig"},
-			{"TKPlevel","LDirtEffectsBig"},
-			{"TKPole","LDustEffects"},
-			{"TKPole","LGrassEffectsDryBig"},
-			{"TKPole","LDirtEffectsBig"},
-			{"TKPolopoust","LDustEffects"},
-			{"TKPolopoust","LSandEffects"},
-			{"TKPolopoust","LDirtEffectsBig"},
-			{"TKSkala","LDustEffects"},
-			{"TKSkala","LStonesEffectsBig"},
-			{"TKSkalniSterk","LDustEffects"},
-			{"TKSkalniSterk","LStonesEffectsBig"},
-			{"TKSterkNaDno","LDustEffects"},
-			{"TKSterkNaDno","LStonesEffectsBig"},
-			{"TKMoutain","LDustEffects"},
-			{"TKMoutain","LStonesEffectsBig"},
-			{"TKValouny","LDustEffects"},
-			{"TKValouny","LStonesEffectsBig"},
-			{"TKTrava","LDustEffects"},
-			{"TKTrava","LGrassEffectsDryBig"},
-			{"TKTrava","LDirtEffectsBig"},
-			{"TKForest","LDustEffects"},
-			{"TKForest","LGrassEffectsDryBig"},
-			{"TKForest","LDirtEffectsBig"},
-			{"ZRAsfalt","LDirtEffectsBig"},
-			{"ZRBeton","LDustEffects"},
-			{"ZRPlevel","LDustEffects"},
-			{"ZRPlevel","LGrassEffectsBig"},
-			{"ZRPlevel","LDirtEffectsBig"},
-			{"ZRPole","LDustEffects"},
-			{"ZRPole","LGrassEffectsDryBig"},
-			{"ZRPole","LDirtEffectsBig"},
-			{"ZRPolopoust","LDustEffects"},
-			{"ZRPolopoust","LSandEffects"},
-			{"ZRPolopoust","LDirtEffectsBig"},
-			{"ZRSkala","LDustEffects"},
-			{"ZRSkala","LStonesEffectsBig"},
-			{"ZRSkalniSterk","LDustEffects"},
-			{"ZRSkalniSterk","LStonesEffectsBig"},
-			{"ZRSterkNaDno","LDustEffects"},
-			{"ZRSterkNaDno","LStonesEffectsBig"},
-			{"ZRValouny","LDustEffects"},
-			{"ZRValouny","LStonesEffectsBig"},
-			{"ZRTrava","LDustEffects"},
-			{"ZRTrava","LGrassEffectsDryBig"},
-			{"ZRTrava","LDirtEffectsBig"},
-			{"DEPolopoust","LDustEffects"},
-			{"DEPolopoust","LSandEffects"},
-			{"DEPolopoust","LDirtEffectsBig"},
-			{"DESkalniSterk","LDustEffects"},
-			{"DESkalniSterk","LStonesEffectsBig"},
-			{"DETrava","LDustEffects"},
-			{"DETrava","LGrassEffectsDryBig"},
-			{"DETrava","LDirtEffectsBig"},
-			{"WLGrass1","LDustEffects"},
-			{"WLGrass1","LGrassEffectsBig"},
-			{"WLGrass1","LDirtEffectsBig"},
-			{"WLGrass2","LDustEffects"},
-			{"WLGrass2","LGrassEffectsBig"},
-			{"WLGrass2","LDirtEffectsBig"},
-			{"WLGrassW1","LDustEffects"},
-			{"WLGrassW1","LGrassEffectsBig"},
-			{"WLGrassW1","LDirtEffectsBig"},
-			{"WLGrassW2","LDustEffects"},
-			{"WLGrassW2","LGrassEffectsBig"},
-			{"WLGrassW2","LDirtEffectsBig"},
-			{"WLField1","LDustEffects"},
-			{"WLField1","LGrassEffectsBig"},
-			{"WLField1","LDirtEffectsBig"},
-			{"WLField2","LDustEffects"},
-			{"WLField2","LGrassEffectsBig"},
-			{"WLField2","LDirtEffectsBig"},
-			{"WLForest1","LDustEffects"},
-			{"WLForest1","LGrassEffectsBig"},
-			{"WLForest1","LDirtEffectsBig"},
-			{"WLForest2","LDustEffects"},
-			{"WLForest2","LGrassEffectsBig"},
-			{"WLForest2","LDirtEffectsBig"},
-			{"WLMudGround","LDustEffects"},
-			{"WLMudGround","LGrassEffectsBig"},
-			{"WLMudGround","LDirtEffectsBig"},
-			{"WLGrit1","LDustEffects"},
-			{"WLGrit1","LDirtEffectsBig"},
-			{"WLHeather","LDustEffects"},
-			{"WLHeather","LGrassEffectsBig"},
-			{"WLHeather","LDirtEffectsBig"},
-			{"WLConcrete","LDirtEffectsBig"},
-			{"GZTrava","LDustEffects"},
-			{"GZTrava","LGrassEffectsDryBig"},
-			{"GZTrava","LDirtEffectsBig"},
-			{"GZforest","LDustEffects"},
-			{"GZForest","LGrassEffectsDryBig"},
-			{"GZForest","LDirtEffectsBig"},
-			{"GZkameny","LDustEffects"},
-			{"GZkameny","LStonesEffectsBig"},
-			{"GZHlina","LDustEffects"},
-			{"GZHlina","LGrassEffectsBig"},
-			{"GZHlina","LDirtEffectsBig"},
-			{"BetonNew","LDirtEffectsBig"},
-			{"Asf1","LDirtEffectsBig"},
-			{"Asf2","LDirtEffectsBig"},
-			{"Asf3","LDirtEffectsBig"},
-			{"road","LDustEffects"},
-			{"Cesta","LDustEffects"},
+			CRGrass1[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRGrass2[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRGrassW1[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRGrassW2[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRField1[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRField2[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRForest1[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRForest2[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRGrit1[] = {"LDustEffects","LDirtEffectsBig"};
+			CRHeather[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			CRConcrete[] = {"LDirtEffectsBig"};
+			TKAsfalt[] = {"LDirtEffectsBig"};
+			TKBeton[] = {"LDustEffects"};
+			TKPlevel[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			TKPole[] = {"LDustEffects","LGrassEffectsDryBig","LDirtEffectsBig"};
+			TKPolopoust[] = {"LDustEffects","LSandEffects","LDirtEffectsBig"};
+			TKSkala[] = {"LDustEffects","LStonesEffects"};
+			TKSkalniSterk[] = {"LDustEffects","LStonesEffects"};
+			TKSterkNaDno[] = {"LDustEffects","LStonesEffects"};
+			TKMoutain[] = {"LDustEffects","LStonesEffects"};
+			TKValouny[] = {"LDustEffects","LStonesEffects"};
+			TKTrava[] = {"LDustEffects","LGrassEffectsDryBig","LDirtEffectsBig"};
+			TKForest[] = {"LDustEffects","LGrassEffectsDryBig","LDirtEffectsBig"};
+			ZRAsfalt[] = {"LDirtEffectsBig"};
+			ZRBeton[] = {"LDustEffects"};
+			RoadDirt_EP1[] = {"LDustEffects"};
+			RoadTarmac_EP1[] = {"LDirtEffectsBig"};
+			ZRPlevel[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			ZRPole[] = {"LDustEffects","LGrassEffectsDryBig","LDirtEffectsBig"};
+			ZRPolopoust[] = {"LDustEffects","LSandEffects","LDirtEffectsBig"};
+			ZRSkala[] = {"LDustEffects","LStonesEffects"};
+			ZRSkalniSterk[] = {"LDustEffects","LStonesEffects"};
+			ZRSterkNaDno[] = {"LDustEffects","LStonesEffects"};
+			ZRValouny[] = {"LDustEffects","LStonesEffects"};
+			ZRTrava[] = {"LDustEffects","LGrassEffectsDryBig","LDirtEffectsBig"};
+			DEPolopoust[] = {"LDustEffects","LSandEffects","LDirtEffectsBig"};
+			DESkalniSterk[] = {"LDustEffects","LStonesEffects"};
+			DETrava[] = {"LDustEffects","LGrassEffectsDryBig","LDirtEffectsBig"};
+			WLGrass1[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLGrass2[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLGrassW1[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLGrassW2[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLField1[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLField2[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLForest1[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLForest2[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLMudGround[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLGrit1[] = {"LDustEffects","LDirtEffectsBig"};
+			WLHeather[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			WLConcrete[] = {"LDirtEffectsBig"};
+			GZTrava[] = {"LDustEffects","LGrassEffectsDryBig","LDirtEffectsBig"};
+			GZforest[] = {"LDustEffects","LGrassEffectsDryBig","LDirtEffectsBig"};
+			GZkameny[] = {"LDustEffects","LStonesEffects"};
+			GZHlina[] = {"LDustEffects","LGrassEffectsBig","LDirtEffectsBig"};
+			BetonNew[] = {"LDirtEffectsBig"};
+			Asf1[] = {"LDirtEffectsBig"};
+			Asf2[] = {"LDirtEffectsBig"};
+			Asf3[] = {"LDirtEffectsBig"};
+			road[] = {"LDustEffects"};

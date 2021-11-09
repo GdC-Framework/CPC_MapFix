@@ -1,130 +1,62 @@
 			// Fallujah
-			{"siFallujahTerra","LDustEffects"},
-			{"siFallujahTerra","LDirtEffectsBig"},
-			{"siFallujahAcqua","LDustEffects"},
-			{"siFallujahErba","LGrassDryEffects"},
-			{"siFallujahErba","LDustEffects"},
-			{"siFallujahErba","LDirtEffects"},
-			{"siFallujahSabbia","LDustEffects"},
-			{"siFallujahSabbia","LSandEffects"},
-			{"siFallujahSabbia","LDirtEffectsBig"},
-			{"siFallujahSabbia","LStonesEffects"},
-			{"siFallujahCitta","LDirtEffects"},
-			{"siFallujahCitta","LDustEffects"},
+			siFallujahTerra[] = {"LDustEffects","LSandEffects","LDirtEffectsBig","LStonesEffects"};
+			siFallujahAcqua[] = {"LDustEffects"};
+			siFallujahErba[] = {"LGrassDryEffects","LDustEffects","LDirtEffects"};
+			siFallujahSabbia[] = {"LDustEffects","LSandEffects","LDirtEffectsBig","LStonesEffects"};
+			siFallujahCitta[] = {"LDirtEffects","LDustEffects"};
 			// Aliabad
-			{"AliDirtSurface","LDustEffects"},
-			{"AliDirtSurface","LDirtEffectsBig"},
-			{"AliSandSurface","LDustEffects"},
-			{"AliSandSurface","LSandEffects"},
-			{"AliSandSurface","LStonesEffects"},
-			{"AliSandSurface","LDirtEffectsBig"},
-			{"AliDesertSurface","LDustEffects"},
-			{"AliDesertSurface","LSandEffects"},
-			{"AliDesertSurface","LStonesEffects"},
-			{"AliDesertSurface","LDirtEffectsBig"},
-			{"AliForestSurface","LDustEffects"},
-			{"AliForestSurface","LDirtEffects"},
-			{"AliRockySurface","LDustEffects"},
-			{"AliRockySurface","LDirtEffectsBig"},
-			{"AliCliffSurface","LDustEffects"},
-			{"AliRiverbedSurface","LDustEffects"},
+			AliDirtSurface[] = {"LDustEffects","LDirtEffectsBig"};
+			AliSandSurface[] = {"LDustEffects","LSandEffects","LStonesEffects","LDirtEffectsBig"};
+			AliDesertSurface[] = {"LDustEffects","LSandEffects","LStonesEffects","LDirtEffectsBig"};
+			AliForestSurface[] = {"LDustEffects","LDirtEffects"};
+			AliRockySurface[] = {"LDustEffects","LDirtEffectsBig"};
+			AliCliffSurface[] = {"LDustEffects"};
+			AliRiverbedSurface[] = {"LDustEffects"};
 			// HazarKot
-			{"FTDirtSurface","LDustEffects"},
-			{"FTDirtSurface","LDirtEffectsBig"},
-			{"FTSandSurface","LDustEffects"},
-			{"FTSandSurface","LSandEffects"},
-			{"FTSandSurface","LStonesEffects"},
-			{"FTSandSurface","LDirtEffectsBig"},
-			{"FTDesertSurface","LDustEffects"},
-			{"FTDesertSurface","LSandEffects"},
-			{"FTDesertSurface","LStonesEffects"},
-			{"FTDesertSurface","LDirtEffectsBig"},
-			{"FTForestSurface","LDustEffects"},
-			{"FTForestSurface","LDirtEffects"},
-			{"FTRockySurface","LDustEffects"},
-			{"FTRockySurface","LDirtEffects"},
+			FTDirtSurface[] = {"LDustEffects","LDirtEffectsBig"};
+			FTSandSurface[] = {"LDustEffects","LSandEffects","LStonesEffects","LDirtEffectsBig"};
+			FTDesertSurface[] = {"LDustEffects","LSandEffects","LStonesEffects","LDirtEffectsBig"};
+			FTForestSurface[] = {"LDustEffects","LDirtEffects"};
+			FTRockySurface[] = {"LDustEffects","LDirtEffects"};
 			// Caribou
-			{"CARIBOU_FOREST01","LGrassDryEffects"},
-			{"CARIBOU_FOREST01","LDustEffects"},
-			{"CARIBOU_FOREST01","LDirtEffects"},
-			{"CARIBOU_FOREST02","LDustEffects"},
-			{"CARIBOU_FOREST02","LDirtEffects"},
-			{"CARIBOU_GRASS01","LGrassDryEffects"},
-			{"CARIBOU_GRASS01","LDustEffects"},
-			{"CARIBOU_GRASS01","LDirtEffects"},
-			{"CARIBOU_GRASS02","LGrassEffects"},
-			{"CARIBOU_GRASS02","LDustEffects"},
-			{"CARIBOU_GRASS02","LDirtEffects"},
-			{"CARIBOU_GRAVEL01","LDirtEffects"},
-			{"CARIBOU_GRAVEL01","LDustEffects"},
-			{"CARIBOU_GRAVEL02","LDirtEffects"},
-			{"CARIBOU_GRAVEL02","LDustEffects"},
-			{"CARIBOU_ROCK01","LDirtEffects"},
-			{"CARIBOU_ROCK01","LDustEffects"},
-			{"CARIBOU_ROCK02","LDirtEffects"},
-			{"CARIBOU_ROCK02","LDustEffects"},
-			{"CARIBOU_BETON01","LDirtEffects"},
-			{"CARIBOU_BETON01","LDustEffects"},
+			CARIBOU_FOREST01[] = {"LGrassDryEffects","LDustEffects","LDirtEffects"};
+			CARIBOU_FOREST02[] = {"LDustEffects","LDirtEffects"};
+			CARIBOU_GRASS01[] = {"LGrassDryEffects","LDustEffects","LDirtEffects"};
+			CARIBOU_GRASS02[] = {"LGrassEffects","LDustEffects","LDirtEffects"};
+			CARIBOU_GRAVEL01[] = {"LDirtEffects","LDustEffects"};
+			CARIBOU_GRAVEL02[] = {"LDirtEffects","LDustEffects"};
+			CARIBOU_ROCK01[] = {"LDirtEffects","LDustEffects"};
+			CARIBOU_ROCK02[] = {"LDirtEffects","LDustEffects"};
+			CARIBOU_BETON01[] = {"LDirtEffects","LDustEffects"};
 			// Podagorsk
-			{"FDF_Tex_1","LDirtEffects"},
-			{"FDF_Tex_1","LDustEffects"},
-			{"FDF_Tex_2","LDustEffects"},
-			{"FDF_Tex_2","LGrassEffects"},
-			{"FDF_Tex_3","LDirtEffects"},
-			{"FDF_Tex_3","LDustEffects"},
-			{"FDF_Tex_4","LDirtEffects"},
-			{"FDF_Tex_4","LDustEffects"},
-			{"FDF_Tex_5","LDirtEffects"},
-			{"FDF_Tex_5","LDustEffects"},
-			{"FDF_Tex_6","LDirtEffects"},
-			{"FDF_Tex_7","LDustEffects"},
-			{"FDF_Tex_7","LDirtEffects"},
-			{"FDF_Tex_7","LStonesEffects"},
-			{"FDF_Tex_8","LDustEffects"},
-			{"FDF_Tex_8","LStonesEffects"},
-			{"FDF_Tex_9","LDustEffects"},
-			{"FDF_Tex_9","LDirtEffects"},
-			{"FDF_Tex_9","LStonesEffects"},
-			{"FDF_Tex_10","LDustEffects"},
-			{"FDF_Tex_11","LDirtEffects"},
+			FDF_Tex_1[] = {"LDirtEffects","LDustEffects"};
+			FDF_Tex_2[] = {"LDustEffects","LGrassEffects"};
+			FDF_Tex_3[] = {"LDirtEffects","LDustEffects"};
+			FDF_Tex_4[] = {"LDirtEffects","LDustEffects"};
+			FDF_Tex_5[] = {"LDirtEffects","LDustEffects"};
+			FDF_Tex_6[] = {"LDirtEffects"};
+			FDF_Tex_7[] = {"LDustEffects","LDirtEffects","LStonesEffects"};
+			FDF_Tex_8[] = {"LDustEffects","LStonesEffects"};
+			FDF_Tex_9[] = {"LDustEffects","LDirtEffects","LStonesEffects"};
+			FDF_Tex_10[] = {"LDustEffects"};
+			FDF_Tex_11[] = {"LDirtEffects"};
 			// Zernovo
-			{"gsep_creekbedsurface","LDustEffects"},
-			{"gsepconcretegroundsurface","LDustEffects"},
-			{"gsepdirtsurface","LDustEffects"},
-			{"gsepdirtsurface","LDirtEffects"},
-			{"gsepforest1surface","LDustEffects"},
-			{"gsepforest1surface","LDirtEffects"},
-			{"gseptallgrasssurface","LDustEffects"},
-			{"gseptallgrasssurface","LDirtEffects"},
-			{"gseptallgrasssurface","LGrassEffects"},
-			{"gsepshortgrasssurface","LDustEffects"},
-			{"gsepshortgrasssurface","LDirtEffects"},
-			{"gsepshortgrasssurface","LGrassEffects"},
-			{"gsepbarerocksurface","LDustEffects"},
-			{"gsepbarerocksurface","LStonesEffects"},
-			{"gsepgravelsurface","LDustEffects"},
-			{"gsepgravelsurface","LDirtEffects"},
-			{"gsephayfieldsurface","LDustEffects"},
-			{"gsephayfieldsurface","LDirtEffects"},
-			{"gsephayfieldsurface","LGrassEffectsDryBig"},
-			{"gsepcropsurface","LDustEffects"},
-			{"gsepcropsurface","LDirtEffects"},
+			gsep_creekbedsurface[] = {"LDustEffects"};
+			gsepconcretegroundsurface[] = {"LDustEffects"};
+			gsepdirtsurface[] = {"LDustEffects","LDirtEffects"};
+			gsepforest1surface[] = {"LDustEffects","LDirtEffects"};
+			gseptallgrasssurface[] = {"LDustEffects","LDirtEffects","LGrassEffects"};
+			gsepshortgrasssurface[] = {"LDustEffects","LDirtEffects","LGrassEffects"};
+			gsepbarerocksurface[] = {"LDustEffects","LStonesEffects"};
+			gsepgravelsurface[] = {"LDustEffects","LDirtEffects"};
+			gsephayfieldsurface[] = {"LDustEffects","LDirtEffects","LGrassEffectsDryBig"};
+			gsepcropsurface[] = {"LDustEffects","LDirtEffects"};
 			// Thirsk
-			{"THgrass2","LDustEffects"},
-			{"THgrass2","LDirtEffects"},
-			{"THgrass2","LGrassEffects"},
-			{"THgrass3","LDustEffects"},
-			{"THgrass3","LDirtEffects"},
-			{"THgrass3","LGrassDryEffects"},
-			{"THForest1","LDustEffects"},
-			{"THForest1","LDirtEffects"},
-			{"THForest1","LStonesEffects"},
-			{"THForest2","LDustEffects"},
-			{"THForest2","LDirtEffects"},
-			{"THGrit1","LDustEffects"},
-			{"THGrit1","LDirtEffects"},
-			{"THGrit1","LStonesEffects"},
-			{"THBetoni1","LDustEffects"},
-			{"THRock","LDustEffects"},
-			{"THRock","LStonesEffects"},
-			{"THTarmac","LDustEffects"},
+			THgrass2[] = {"LDustEffects","LDirtEffects","LGrassEffects"};
+			THgrass3[] = {"LDustEffects","LDirtEffects","LGrassDryEffects"};
+			THForest1[] = {"LDustEffects","LDirtEffects","LStonesEffects"};
+			THForest2[] = {"LDustEffects","LDirtEffects"};
+			THGrit1[] = {"LDustEffects","LDirtEffects","LStonesEffects"};
+			THBetoni1[] = {"LDustEffects"};
+			THRock[] = {"LDustEffects","LStonesEffects"};
+			THTarmac[] = {"LDustEffects"};

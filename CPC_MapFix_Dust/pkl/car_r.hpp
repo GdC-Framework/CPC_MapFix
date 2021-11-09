@@ -1,16 +1,10 @@
 			// PKL
-			{"bludriver","RDirtEffects"},
-			{"bludjungle1","RDirtEffects"},
-			{"bludjungle2","RDirtEffects"},
-			{"bludjungle3","RDirtEffects"},
-			{"bludgressj","RDirtEffects"},
-			{"bludgressj","RDustEffects"},
-			{"bludgressj","RGrassEffects"},
-			{"bludjunglerd1","RDirtEffects"},
-			{"bludjunglerd1","RDustEffects"},
-			{"bludjunglerd2","RDirtEffects"},
-			{"bludjunglerd2","RDustEffects"},
-			{"bludrivermaling","RDirtEffects"},
-			{"bludrivermaling","RDustEffects"},
-			{"blud_sti","RDirtEffects"},
-			{"blud_sti","RDustEffects"},
+			bludriver[] = {"RDirtEffects"};
+			bludjungle1[] = {"RDirtEffects"};
+			bludjungle2[] = {"RDirtEffects"};
+			bludjungle3[] = {"RDirtEffects"};
+			bludgressj[] = {"RDirtEffects","RDustEffects","RGrassEffects"};
+			bludjunglerd1[] = {"RDirtEffects","RDustEffects"};
+			bludjunglerd2[] = {"RDirtEffects","RDustEffects"};
+			bludrivermaling[] = {"RDirtEffects","RDustEffects"};
+			blud_sti[] = {"RDirtEffects","RDustEffects"};
